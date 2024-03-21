@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ce40b3-047e-46bb-951f-7fe44bbb4772" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/libraryService/LibraryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/collections/libraryService/LibraryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +19,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2dx3cZIcAmqlxj0nEq2TlVhwNUI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,13 +44,133 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.LibraryServiceTest.executor": "Run",
+    "JUnit.LibraryServiceTest.getAllBooksReturnsAllExistingBooks.executor": "Run",
+    "JUnit.LibraryServiceTest.returnBook.executor": "Run",
+    "JUnit.LibraryServiceTest.takeBook.executor": "Run",
+    "JUnit.LibraryServiceTest.testGetAvailableBooks.executor": "Run",
+    "JUnit.LibraryServiceTest.testGetUserBooksReturnsAllBooksTakenByUser.executor": "Run",
+    "JUnit.LibraryServiceTest.testGetUserBooksReturnsEmptyListWhenNoBooksAreTaken.executor": "Run",
+    "JUnit.LibraryServiceTest.testTakeBookAlreadyTakenByTheSameUser.executor": "Run",
+    "JUnit.LibraryServiceTest.testTakeBookDoesNotThrowException.executor": "Run",
+    "JUnit.LibraryServiceTest.testTakeBookThrowsException.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "collections",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.collections.libraryService" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LibraryServiceTest.returnBook">
+    <configuration name="LibraryServiceTest.getAllBooksReturnsAllExistingBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.libraryService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.collections.libraryService" />
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.libraryService.LibraryServiceTest" />
+      <option name="METHOD_NAME" value="getAllBooksReturnsAllExistingBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryServiceTest.returnBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.libraryService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.collections.libraryService" />
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.libraryService.LibraryServiceTest" />
+      <option name="METHOD_NAME" value="returnBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryServiceTest.testTakeBookAlreadyTakenByTheSameUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.libraryService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.collections.libraryService" />
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.libraryService.LibraryServiceTest" />
+      <option name="METHOD_NAME" value="testTakeBookAlreadyTakenByTheSameUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryServiceTest.testTakeBookDoesNotThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.libraryService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.collections.libraryService" />
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.libraryService.LibraryServiceTest" />
+      <option name="METHOD_NAME" value="testTakeBookDoesNotThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryServiceTest.testTakeBookThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.libraryService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.collections.libraryService" />
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.libraryService.LibraryServiceTest" />
+      <option name="METHOD_NAME" value="testTakeBookThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LibraryServiceTest.returnBook" />
+        <item itemvalue="JUnit.LibraryServiceTest.testTakeBookAlreadyTakenByTheSameUser" />
+        <item itemvalue="JUnit.LibraryServiceTest.testTakeBookThrowsException" />
+        <item itemvalue="JUnit.LibraryServiceTest.testTakeBookDoesNotThrowException" />
+        <item itemvalue="JUnit.LibraryServiceTest.getAllBooksReturnsAllExistingBooks" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,6 +179,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710935982081</updated>
+      <workItem from="1711011276358" duration="407000" />
+      <workItem from="1711011750988" duration="38000" />
+      <workItem from="1711011792075" duration="2000" />
+      <workItem from="1711011834691" duration="24000" />
+      <workItem from="1711011870496" duration="35000" />
+      <workItem from="1711011910622" duration="17000" />
+      <workItem from="1711011942915" duration="82000" />
+      <workItem from="1711012058344" duration="17000" />
+      <workItem from="1711012086234" duration="91000" />
+      <workItem from="1711012187400" duration="133000" />
+      <workItem from="1711012328078" duration="41000" />
+      <workItem from="1711012402910" duration="12000" />
+      <workItem from="1711012423160" duration="157000" />
+      <workItem from="1711012597234" duration="16000" />
+      <workItem from="1711012627909" duration="593000" />
+      <workItem from="1711013242923" duration="98000" />
+      <workItem from="1711013369855" duration="13000" />
+      <workItem from="1711013414419" duration="93000" />
+      <workItem from="1711013531427" duration="8000" />
+      <workItem from="1711013545510" duration="7479000" />
     </task>
     <servers />
   </component>
